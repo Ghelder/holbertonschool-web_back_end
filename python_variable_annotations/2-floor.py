@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """A module that contains a function that
 takes a float as input and returns"""
+import math
 
 
-def floor(n: float) -> float:
+def floor(n: float) -> int:
     """A function that takes a float as input and
       returns the floor value of the input.
 
@@ -13,4 +14,4 @@ def floor(n: float) -> float:
     Returns:
         float: The floor value of the input number
     """
-    return n
+    return math.floor(n)
