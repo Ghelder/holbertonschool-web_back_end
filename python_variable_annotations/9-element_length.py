@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """This module provides a function for
 calculating the length of elements in a list"""
 from typing import Iterable, List, Sequence, Tuple
