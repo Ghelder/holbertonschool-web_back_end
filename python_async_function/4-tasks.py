@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""This module provides functions for performing async operations with random delays."""
+"""This module provides functions for performing
+async operations with random delays."""
 from asyncio import gather
 from typing import List
 task_wait_random = __import__('3-tasks').task_wait_random
