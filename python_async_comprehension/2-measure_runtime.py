@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""This module provides a coroutine and functions for working with async comprehensions."""
 import asyncio
 async_comprehension = __import__('1-async_comprehension').async_comprehension
 
